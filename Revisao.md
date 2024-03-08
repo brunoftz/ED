@@ -212,9 +212,49 @@ do while:
 	
  # Vetor: é um arranjo unidimensional
 
- ->Declaração
-
- 	int vet[6];
-	
+ * Declaração
+	```
+ 	int chuchu[6],i;
+	```
 declara-se o tipo, nome e o tamanho da variável.
+
+* inserção dos dados
+  	 ```
+   	for(i=0; i<6; i++){
+	scanf("%d", &chuchu[i];
 	
+   	}
+	```
+
+* busca de elementos
+
+  	```
+   for(i=0; i<6; i++){
+	if(chuchu[i]==21{
+   	printf("%d",i};	
+   }
+   	```
+* exemplo
+
+  ```
+  #include <stdio.h>
+  #include <stdlib.h>
+
+  int main(){
+    float v[4];
+
+  //inserir dados no vetor
+  for(i=0;i<4;i++){
+  scanf("%f", &v[i];
+  }
+
+  //calcular a média
+  for(i=o;i<4;i++){
+  soma = soma + v[i];
+  }
+
+  media = soma/4
+  printf("%f",media);
+  }
+
+   
